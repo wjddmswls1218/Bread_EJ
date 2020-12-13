@@ -1,5 +1,5 @@
-import express from "express";
-import path from "path";
+import express from "express"; //  express를 사용하기 위해 import 했다.
+import path from "path"; //path를 사용하기 위해 import 했다.
 import dotenv from "dotenv";
 dotenv.config();
 import Bread from "../models/bread";
