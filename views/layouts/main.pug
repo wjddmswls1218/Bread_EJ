@@ -3,9 +3,16 @@ html(lang="en")
     head
         meta(charset="UTF-8")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
-        title Document
-        link(rel="stylesheet", href="styles/styles.css")
+        title MAIN
+        link(rel="stylesheet", href="/styles/styles.css")
     body
-
-
-    block content
+        .main
+            .main__header
+                .main__menu
+                    ul.main__menu
+                        li.main__menu__list
+                            a(href="/") HOME
+                        li.main__menu__list
+                            a(href="/student") STUDENT
+                .main__content
+                    block content
