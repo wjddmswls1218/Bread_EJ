@@ -4,7 +4,7 @@ import dotenv from "dotenv";
 dotenv.config();
 import Bread from "../models/bread";
 import mongoose from "mongoose";
-import morgan from "morgan";
+import morgan from "morgan"; //아 왜 깃이 안 올라가 ;;
 import globalRouter from "./router/globalRouter";
 
 const app = express();
