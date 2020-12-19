@@ -6,13 +6,11 @@ html(lang="en")
         title MAIN
         link(rel="stylesheet", href="/styles/styles.css")
     body
-        .main
-            .main__header
-                .main__menu
-                    ul.main__menu
-                        li.main__menu__list
-                            a(href="/") HOME
-                        li.main__menu__list
-                            a(href="/student") STUDENT
-                .main__content
-                    block content
+        header.header
+            ul
+                li
+                    a(href="/") HOME
+
+                li
+                    a(href="/bread") BREAD
+        block content

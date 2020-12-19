@@ -1,10 +1,9 @@
-import espress from "express"; //아직 express는 안 썼네 
-import { routers } from "../routes";
+import express from "express";
 import { globalController } from "../controller/globalController";
 
 const globalRouter = express.Router();
 
-globalRouter.get(routers.HOME, globalController.homeController);
-globalRouter.get(routers.BREAD, globalController.breadController);
+globalRouter.get("/",globalController.homeController);
+globalRouter.get("/bread", globalController.breadController);
 
 export default globalRouter;
